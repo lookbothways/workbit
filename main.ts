@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 5; index++) {
+    for (let index = 0; index < 1; index++) {
         basic.showLeds(`
             # . . . .
             . . . . .
@@ -9,45 +9,213 @@ input.onButtonPressed(Button.A, function () {
             `)
         basic.pause(60000)
         basic.showLeds(`
-            # . . . .
             # # . . .
+            . . . . .
             . . . . .
             . . . . .
             . . . . .
             `)
         basic.pause(60000)
         basic.showLeds(`
+            # # # . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
             # . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
             # # . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
             # # # . .
             . . . . .
             . . . . .
             `)
         basic.pause(60000)
         basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
             # . . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
             # # . . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
             # # # . .
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
             # # # # .
             . . . . .
             `)
         basic.pause(60000)
         basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            . . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
             # . . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
             # # . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # . . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
             # # # . .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
             # # # # .
+            `)
+        basic.pause(60000)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
             # # # # #
             `)
         basic.pause(60000)
     }
     for (let index = 0; index < 10; index++) {
         basic.showLeds(`
-            # . . . #
+            . . . . .
             . # . # .
-            . . # . .
-            . # . # .
+            . . . . .
             # . . . #
+            . # # # .
             `)
         basic.showLeds(`
             . . . . .
