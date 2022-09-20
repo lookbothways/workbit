@@ -1,4 +1,12 @@
 input.onButtonPressed(Button.A, function () {
+    sleep = 60000
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
     for (let index = 0; index < 1; index++) {
         basic.showLeds(`
             # . . . .
@@ -7,7 +15,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # . . .
             . . . . .
@@ -15,7 +23,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # . .
             . . . . .
@@ -23,7 +31,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # .
             . . . . .
@@ -31,7 +39,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             . . . . .
@@ -39,15 +47,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
-        basic.showLeds(`
-            # # # # #
-            # . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # . . . .
@@ -55,7 +55,15 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
+        basic.showLeds(`
+            # # # # #
+            # . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # . .
@@ -63,7 +71,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # .
@@ -71,7 +79,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -79,7 +87,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -87,7 +95,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -95,7 +103,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -103,7 +111,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -111,7 +119,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -119,7 +127,7 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -127,7 +135,7 @@ input.onButtonPressed(Button.A, function () {
             # . . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -135,7 +143,7 @@ input.onButtonPressed(Button.A, function () {
             # # . . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -143,7 +151,7 @@ input.onButtonPressed(Button.A, function () {
             # # # . .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -151,7 +159,7 @@ input.onButtonPressed(Button.A, function () {
             # # # # .
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -159,7 +167,7 @@ input.onButtonPressed(Button.A, function () {
             # # # # #
             . . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -167,7 +175,7 @@ input.onButtonPressed(Button.A, function () {
             # # # # #
             # . . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -175,7 +183,7 @@ input.onButtonPressed(Button.A, function () {
             # # # # #
             # # . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -183,7 +191,7 @@ input.onButtonPressed(Button.A, function () {
             # # # # #
             # # . . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -191,7 +199,7 @@ input.onButtonPressed(Button.A, function () {
             # # # # #
             # # # . .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -199,7 +207,7 @@ input.onButtonPressed(Button.A, function () {
             # # # # #
             # # # # .
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -207,7 +215,7 @@ input.onButtonPressed(Button.A, function () {
             # # # # #
             # # # # #
             `)
-        basic.pause(60000)
+        basic.pause(sleep)
     }
     for (let index = 0; index < 10; index++) {
         basic.showLeds(`
@@ -225,10 +233,22 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             `)
     }
+    basic.showLeds(`
+        # # # # #
+        # . . . #
+        # . . . #
+        # . . . #
+        # # # # #
+        `)
+    basic.pause(sleep)
     basic.showNumber(Count)
     Count = Count + 1
 })
+input.onButtonPressed(Button.B, function () {
+    Count = 0
+})
 let Count = 0
+let sleep = 0
 basic.showLeds(`
     # # # # #
     # . . . #
